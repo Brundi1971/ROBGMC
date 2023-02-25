@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--androidx.coordinatorlayout.widget.CoordinatorLayout-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/id_table"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/id_tv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="Directie"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="Flow[MWh]"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="Value[EURO]"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_tv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="BG>>RO (+)"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv23"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_tv31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="RO>>BG (+)"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_tv41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="BG>>RO (-)"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv42"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_tv51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="RO>>BG (-)"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_tv61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="Shipper"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_tv71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="Congestie"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tv72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/value"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_table" />
+
+    <Button
+        android:id="@+id/btn_decrease"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="-"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_req"
+        app:layout_constraintEnd_toStartOf="@+id/btn_req"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_req"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="20dp"
+        app:cornerRadius="10dp"
+        android:text="Request"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="@color/green"
+        app:strokeWidth="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data" />
+
+    <Button
+        android:id="@+id/btn_increase"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_req"
+        app:layout_constraintStart_toEndOf="@+id/btn_req"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_ci_ver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Versiune XML CI"
+        app:layout_constraintTop_toBottomOf="@+id/btn_req"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <Button
+        android:id="@+id/btn_decrease_ver"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="-"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_create_ci"
+        app:layout_constraintEnd_toStartOf="@+id/btn_create_ci"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <Button
+        android:id="@+id/btn_create_ci"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Create CI XML"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ci_ver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_increase_ver"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_create_ci"
+        app:layout_constraintStart_toEndOf="@+id/btn_create_ci"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <Button
+        android:id="@+id/btn_send_ci"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Send CI to ETP"
+        app:cornerRadius="10dp"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="@color/green"
+        app:strokeWidth="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_create_ci"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Switch
+        android:id="@+id/sw_host"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="TEST Serv."
+        app:layout_constraintEnd_toStartOf="@+id/sw_send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_send_ci" />
+
+    <Switch
+        android:id="@+id/sw_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Locked SEND"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sw_host"
+        app:layout_constraintTop_toBottomOf="@+id/btn_send_ci" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
